@@ -1,0 +1,10 @@
+h1,p{
+    text-align: center;
+}
+ol:hover{
+    background-color: seagreen;
+}
+ol.active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
