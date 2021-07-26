@@ -30,7 +30,22 @@ ul li:nth-of-type(3){
     color:blue;
     background-color: pink;
 }
-#aliados li a:hover{
+.negrito:hover{
     font-weight: 700;
+}
     
+.stack:hover{
+    color: orange;
+}
+.w3schools:hover{
+    color: green;
+}
+.MDN:hover{
+    color: black;
+}
+.devdocs:hover{
+    color: yellow ;
+}
+.trybe:hover{
+    color: green;
 }
