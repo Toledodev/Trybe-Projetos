@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+</body>
+</html>
+<fieldset class="line">
+    <input type="text" required maxlength="40" placeholder="Insira seu nome" >
+    <br>
+    <input type="email" required maxlength="50" placeholder="Insira seu email">
+    <br>
+    <input type="text" required maxlength="11" placeholder="Insira seu cpf">
+    <br>
+    <input type="text" required maxlength="200" placeholder="Insira seu endereço">
+    <br>
+    <input type="text" required maxlength="28" placeholder="Insira sua cidade">
+    <br>
+    <label for="state">Estado: </label>
+    <select name="state" id="state"  required>
+    <option disabled selected value>Selecione seu estado</option>
+    </select>
+    <input type="radio" value="casa" id="casa" name="logradouro" required>
+    <label for="casa">casa</label>
+    <input type="radio" value="apartamento" id="apartamento" name="logradouro" required>
+    <label for="apartamento">apartamento</label>
+</fieldset>
+
+<fieldset class="line">
+ <div>
+ <textarea name="area" id="resumo-curriculo" cols="30" rows="10" maxlength="1000" required placeholder="Insira um resumo do curriculo"></textarea>
+</div>
+<div>
+ <input type="text" placeholder="Insira seu cargo" maxlength="40" required>
+</div>
+<div>
+    <textarea name="descriçao" id="descriçao-cargo" cols="30" rows="10" maxlength="500" required placeholder="Insira a descrição do cargo"></textarea>
+</div>
+
+<div>
+    <input type="text" placeholder="Insira a data de inicio no formato dd/mm/aaaa">
+
+</div>
+
+</fieldset>
