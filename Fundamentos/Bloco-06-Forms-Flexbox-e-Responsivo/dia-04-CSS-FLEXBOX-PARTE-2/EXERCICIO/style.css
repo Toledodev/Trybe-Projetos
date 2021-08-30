@@ -1,10 +1,10 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu';
   }
-  
+   */
   body {
     background-color: rgb(247, 247, 247);
   }
@@ -14,7 +14,7 @@
     display: flex;
   }
   
-  .logo-container {
+  /* .logo-container {
     display: flex;
     justify-content: center;
     flex-basis: 268px;
@@ -87,4 +87,4 @@
   .aside-container p {
     margin: 10px 0;
     text-align: justify;
-  }
+  } */
