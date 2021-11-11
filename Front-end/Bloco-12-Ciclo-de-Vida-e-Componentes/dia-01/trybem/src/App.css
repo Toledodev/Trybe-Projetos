@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ button {
+  border: 2px solid #10de7d;
+  color: #10de7d;
+  background-color: #282c34;
+  padding: 16px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+ button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+}
