@@ -37,3 +37,4 @@ eraseButton.addEventListener('click', function(){
         getSquares[i].style.backgroundColor = setNewColor;
     }
  }); 
+ 
